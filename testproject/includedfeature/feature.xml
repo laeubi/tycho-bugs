@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="feature"
-      label="Feature"
+      id="includedfeature"
+      label="Includedfeature"
       version="1.0.0.qualifier">
 
    <description url="http://www.example.com/description">
@@ -15,16 +15,5 @@
    <license url="http://www.example.com/license">
       [Enter License Description here.]
    </license>
-
-   <includes
-         id="includedfeature"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.apache.commons.io"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
 
 </feature>

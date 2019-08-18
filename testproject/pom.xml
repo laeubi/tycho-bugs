@@ -21,6 +21,7 @@
 	
 	<modules>
 		<module>target</module>
+		<module>includedfeature</module>
 		<module>feature</module>
 	</modules>
 	
@@ -47,6 +48,7 @@
 				<artifactId>target-platform-configuration</artifactId>
 				<version>${tycho.version}</version>
 				<configuration>
+				 	<targetDefinitionIncludeSource>honor</targetDefinitionIncludeSource>
 					<target>
 						<artifact>
 							<groupId>test.tycho</groupId>
