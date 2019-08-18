@@ -1,0 +1,110 @@
+[INFO] Scanning for projects...
+/home/lablicate/ws/tycho/testproject/feature/.polyglot.build.properties
+[INFO] Computing target platform for MavenProject: test.tycho:feature:1.0.0-SNAPSHOT @ /home/lablicate/ws/tycho/testproject/feature/.polyglot.build.properties
+[INFO] Fetching p2.index from http://download.eclipse.org/tools/orbit/downloads/drops/S20190726194335/repository/
+[INFO] Fetching p2.index from http://download.eclipse.org/tools/orbit/downloads/drops/S20190726194335/repository/
+[INFO] Adding repository http://download.eclipse.org/tools/orbit/downloads/drops/S20190726194335/repository
+[INFO] Fetching p2.index from http://download.eclipse.org/tools/orbit/downloads/drops2/S20190726194335/repository/
+[INFO] Fetching p2.index from http://download.eclipse.org/tools/orbit/downloads/drops2/S20190726194335/repository/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/
+[INFO] Adding repository http://download.eclipse.org/releases/neon
+[INFO] Fetching p2.index from http://download.eclipse.org/technology/epp/packages/neon/
+[INFO] Fetching p2.index from http://download.eclipse.org/technology/epp/packages/neon/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/201705151400/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/201705151400/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/201703141400/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/201703141400/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/201703231000/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/201703231000/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/201606221000/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/201606221000/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/201609281000/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/201609281000/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/201610111000/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/201610111000/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/201612211000/
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/neon/201612211000/
+[INFO] Resolving dependencies of MavenProject: test.tycho:feature:1.0.0-SNAPSHOT @ /home/lablicate/ws/tycho/testproject/feature/.polyglot.build.properties
+[INFO] Resolving class path of MavenProject: test.tycho:feature:1.0.0-SNAPSHOT @ /home/lablicate/ws/tycho/testproject/feature/.polyglot.build.properties
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] master
+[INFO] Test Target
+[INFO] feature
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building master 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- tycho-source-plugin:1.4.0:plugin-source (plugin-source) @ master ---
+[INFO] 
+[INFO] --- tycho-source-feature-plugin:1.4.0:source-feature (source-feature) @ master ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ master ---
+[INFO] Installing /home/lablicate/ws/tycho/testproject/pom.xml to /home/lablicate/.m2/repository/test/tycho/master/0.0.1-SNAPSHOT/master-0.0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Test Target 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- tycho-source-plugin:1.4.0:plugin-source (plugin-source) @ target ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:1.4.0:package-target-definition (default-package-target-definition) @ target ---
+[INFO] 
+[INFO] --- tycho-source-feature-plugin:1.4.0:source-feature (source-feature) @ target ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ target ---
+[INFO] Installing /home/lablicate/ws/tycho/testproject/target/target.target to /home/lablicate/.m2/repository/test/tycho/target/0.0.1-SNAPSHOT/target-0.0.1-SNAPSHOT.target
+[INFO] Installing /home/lablicate/ws/tycho/testproject/target/pom.xml to /home/lablicate/.m2/repository/test/tycho/target/0.0.1-SNAPSHOT/target-0.0.1-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building feature 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- tycho-packaging-plugin:1.4.0:build-qualifier-aggregator (default-build-qualifier-aggregator) @ feature ---
+[INFO] The project's OSGi version is 1.0.0.201908180810
+[INFO] 
+[INFO] --- tycho-packaging-plugin:1.4.0:validate-id (default-validate-id) @ feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:1.4.0:validate-version (default-validate-version) @ feature ---
+[INFO] 
+[INFO] --- tycho-source-plugin:1.4.0:plugin-source (plugin-source) @ feature ---
+[INFO] 
+[INFO] --- target-platform-configuration:1.4.0:target-platform (default-target-platform) @ feature ---
+[INFO] 
+[INFO] --- tycho-packaging-plugin:1.4.0:package-feature (default-package-feature) @ feature ---
+[INFO] Building jar: /home/lablicate/ws/tycho/testproject/feature/target/feature-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- tycho-p2-plugin:1.4.0:p2-metadata-default (default-p2-metadata-default) @ feature ---
+[INFO] 
+[INFO] --- tycho-p2-plugin:1.4.0:feature-p2-metadata (default-feature-p2-metadata) @ feature ---
+[INFO] 
+[INFO] --- tycho-source-feature-plugin:1.4.0:source-feature (source-feature) @ feature ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] master ............................................. SUCCESS [  0.098 s]
+[INFO] Test Target ........................................ SUCCESS [  0.187 s]
+[INFO] feature ............................................ FAILURE [  0.255 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 19.197 s
+[INFO] Finished at: 2019-08-18T10:10:24+02:00
+[INFO] Final Memory: 120M/1593M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.eclipse.tycho.extras:tycho-source-feature-plugin:1.4.0:source-feature (source-feature) on project feature: Could not generate source feature for project MavenProject: test.tycho:feature:1.0.0-SNAPSHOT @ /home/lablicate/ws/tycho/testproject/feature/.polyglot.build.properties
+[ERROR] Missing sources for plugins [org.apache.commons.io_2.6.0.v20190123-2029]
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :feature
+
